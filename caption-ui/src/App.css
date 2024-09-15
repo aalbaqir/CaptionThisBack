@@ -1,0 +1,166 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+}
+
+/* Title styling */
+.title {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Upload form styling */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.file-input {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.file-input:hover {
+  border-color: #4a90e2;
+}
+
+.upload-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-button:hover:enabled {
+  background-color: #357ab8;
+}
+
+/* Image container styling */
+.image-container {
+  margin-top: 20px;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Caption container styling */
+.caption-container {
+  margin-top: 20px;
+  color: #4a90e2;
+}
+
+.caption-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.caption-container p {
+  font-size: 1.2rem;
+}
+
+.new-caption-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.new-caption-button:hover {
+  background-color: #45a049;
+}
+.new-caption-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.new-caption-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.new-caption-button:hover:enabled {
+  background-color: #45a049;
+}
+.new-caption-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.new-caption-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.new-caption-button:hover:enabled {
+  background-color: #45a049;
+}
+
+.uploaded-image {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.caption-container {
+  margin-top: 20px;
+  font-size: 18px;
+}
